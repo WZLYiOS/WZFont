@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8001B03922C0B98C0006A970 /* WZFontTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8001B03822C0B98C0006A970 /* WZFontTests.m */; };
+		8001B07222C0D8DE0006A970 /* TT0144M.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 8001B07022C0D8DD0006A970 /* TT0144M.TTF */; };
+		80033DE122C07EA200C719E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80033DE022C07EA200C719E9 /* AppDelegate.m */; };
+		80033DE422C07EA200C719E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80033DE322C07EA200C719E9 /* ViewController.m */; };
+		80033DE722C07EA200C719E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80033DE522C07EA200C719E9 /* Main.storyboard */; };
+		80033DE922C07EA200C719E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80033DE822C07EA200C719E9 /* Assets.xcassets */; };
+		80033DEC22C07EA200C719E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80033DEA22C07EA200C719E9 /* LaunchScreen.storyboard */; };
+		80033DEF22C07EA200C719E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80033DEE22C07EA200C719E9 /* main.m */; };
+		80033E4122C098CB00C719E9 /* WZFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 80033E4022C098CB00C719E9 /* WZFont.m */; };
+		80033E4222C0B0BF00C719E9 /* DIN-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 80033E0922C07F5200C719E9 /* DIN-Bold.otf */; };
+		80033E4322C0B0BF00C719E9 /* DIN-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 80033E0E22C07F5200C719E9 /* DIN-Medium.otf */; };
+		80033E4422C0B0BF00C719E9 /* HelveticaLT107ExtraBlackCondensed.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80033E0B22C07F5200C719E9 /* HelveticaLT107ExtraBlackCondensed.ttf */; };
+		80033E4522C0B0BF00C719E9 /* Mittelschrift.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80033E0A22C07F5200C719E9 /* Mittelschrift.ttf */; };
+		80033E4622C0B0BF00C719E9 /* SourceHanSerifCN-Bold-wzlyapp.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80033E0D22C07F5200C719E9 /* SourceHanSerifCN-Bold-wzlyapp.ttf */; };
+		80033E4722C0B0BF00C719E9 /* wzlyhw-SVG.otf in Resources */ = {isa = PBXBuildFile; fileRef = 80033E0C22C07F5200C719E9 /* wzlyhw-SVG.otf */; };
+		80033E4A22C0B77A00C719E9 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 80033E4922C0B77A00C719E9 /* TableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8001B03B22C0B98C0006A970 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80033DD422C07EA200C719E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80033DDB22C07EA200C719E9;
+			remoteInfo = WZFont;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8001B03622C0B98B0006A970 /* WZFontTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WZFontTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8001B03822C0B98C0006A970 /* WZFontTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZFontTests.m; sourceTree = "<group>"; };
+		8001B03A22C0B98C0006A970 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8001B07022C0D8DD0006A970 /* TT0144M.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = TT0144M.TTF; sourceTree = "<group>"; };
+		80033DDC22C07EA200C719E9 /* WZFont.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WZFont.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80033DDF22C07EA200C719E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		80033DE022C07EA200C719E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		80033DE222C07EA200C719E9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		80033DE322C07EA200C719E9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		80033DE622C07EA200C719E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80033DE822C07EA200C719E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80033DEB22C07EA200C719E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80033DED22C07EA200C719E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80033DEE22C07EA200C719E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		80033E0922C07F5200C719E9 /* DIN-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DIN-Bold.otf"; sourceTree = "<group>"; };
+		80033E0A22C07F5200C719E9 /* Mittelschrift.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mittelschrift.ttf; sourceTree = "<group>"; };
+		80033E0B22C07F5200C719E9 /* HelveticaLT107ExtraBlackCondensed.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HelveticaLT107ExtraBlackCondensed.ttf; sourceTree = "<group>"; };
+		80033E0C22C07F5200C719E9 /* wzlyhw-SVG.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "wzlyhw-SVG.otf"; sourceTree = "<group>"; };
+		80033E0D22C07F5200C719E9 /* SourceHanSerifCN-Bold-wzlyapp.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceHanSerifCN-Bold-wzlyapp.ttf"; sourceTree = "<group>"; };
+		80033E0E22C07F5200C719E9 /* DIN-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DIN-Medium.otf"; sourceTree = "<group>"; };
+		80033E3F22C098CB00C719E9 /* WZFont.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZFont.h; sourceTree = "<group>"; };
+		80033E4022C098CB00C719E9 /* WZFont.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZFont.m; sourceTree = "<group>"; };
+		80033E4822C0B77A00C719E9 /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		80033E4922C0B77A00C719E9 /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8001B03322C0B98B0006A970 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80033DD922C07EA200C719E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8001B03722C0B98C0006A970 /* WZFontTests */ = {
+			isa = PBXGroup;
+			children = (
+				8001B03822C0B98C0006A970 /* WZFontTests.m */,
+				8001B03A22C0B98C0006A970 /* Info.plist */,
+			);
+			path = WZFontTests;
+			sourceTree = "<group>";
+		};
+		80033DD322C07EA200C719E9 = {
+			isa = PBXGroup;
+			children = (
+				80033DDE22C07EA200C719E9 /* WZFont */,
+				8001B03722C0B98C0006A970 /* WZFontTests */,
+				80033DDD22C07EA200C719E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80033DDD22C07EA200C719E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80033DDC22C07EA200C719E9 /* WZFont.app */,
+				8001B03622C0B98B0006A970 /* WZFontTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80033DDE22C07EA200C719E9 /* WZFont */ = {
+			isa = PBXGroup;
+			children = (
+				80033DF522C07EA600C719E9 /* Core */,
+				80033DDF22C07EA200C719E9 /* AppDelegate.h */,
+				80033DE022C07EA200C719E9 /* AppDelegate.m */,
+				80033DE222C07EA200C719E9 /* ViewController.h */,
+				80033DE322C07EA200C719E9 /* ViewController.m */,
+				80033E4822C0B77A00C719E9 /* TableViewCell.h */,
+				80033E4922C0B77A00C719E9 /* TableViewCell.m */,
+				80033DE522C07EA200C719E9 /* Main.storyboard */,
+				80033DE822C07EA200C719E9 /* Assets.xcassets */,
+				80033DEA22C07EA200C719E9 /* LaunchScreen.storyboard */,
+				80033DED22C07EA200C719E9 /* Info.plist */,
+				80033DEE22C07EA200C719E9 /* main.m */,
+			);
+			path = WZFont;
+			sourceTree = "<group>";
+		};
+		80033DF522C07EA600C719E9 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				80033E0822C07F4000C719E9 /* Resources */,
+				80033E3F22C098CB00C719E9 /* WZFont.h */,
+				80033E4022C098CB00C719E9 /* WZFont.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		80033E0822C07F4000C719E9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8001B07022C0D8DD0006A970 /* TT0144M.TTF */,
+				80033E0922C07F5200C719E9 /* DIN-Bold.otf */,
+				80033E0E22C07F5200C719E9 /* DIN-Medium.otf */,
+				80033E0B22C07F5200C719E9 /* HelveticaLT107ExtraBlackCondensed.ttf */,
+				80033E0A22C07F5200C719E9 /* Mittelschrift.ttf */,
+				80033E0D22C07F5200C719E9 /* SourceHanSerifCN-Bold-wzlyapp.ttf */,
+				80033E0C22C07F5200C719E9 /* wzlyhw-SVG.otf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8001B03522C0B98B0006A970 /* WZFontTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8001B03F22C0B98C0006A970 /* Build configuration list for PBXNativeTarget "WZFontTests" */;
+			buildPhases = (
+				8001B03222C0B98B0006A970 /* Sources */,
+				8001B03322C0B98B0006A970 /* Frameworks */,
+				8001B03422C0B98B0006A970 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8001B03C22C0B98C0006A970 /* PBXTargetDependency */,
+			);
+			name = WZFontTests;
+			productName = WZFontTests;
+			productReference = 8001B03622C0B98B0006A970 /* WZFontTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		80033DDB22C07EA200C719E9 /* WZFont */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80033DF222C07EA200C719E9 /* Build configuration list for PBXNativeTarget "WZFont" */;
+			buildPhases = (
+				80033DD822C07EA200C719E9 /* Sources */,
+				80033DD922C07EA200C719E9 /* Frameworks */,
+				80033DDA22C07EA200C719E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WZFont;
+			productName = WZFont;
+			productReference = 80033DDC22C07EA200C719E9 /* WZFont.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80033DD422C07EA200C719E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "xiaobin liu";
+				TargetAttributes = {
+					8001B03522C0B98B0006A970 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 80033DDB22C07EA200C719E9;
+					};
+					80033DDB22C07EA200C719E9 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 80033DD722C07EA200C719E9 /* Build configuration list for PBXProject "WZFont" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80033DD322C07EA200C719E9;
+			productRefGroup = 80033DDD22C07EA200C719E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80033DDB22C07EA200C719E9 /* WZFont */,
+				8001B03522C0B98B0006A970 /* WZFontTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8001B03422C0B98B0006A970 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80033DDA22C07EA200C719E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80033E4222C0B0BF00C719E9 /* DIN-Bold.otf in Resources */,
+				80033E4322C0B0BF00C719E9 /* DIN-Medium.otf in Resources */,
+				80033E4422C0B0BF00C719E9 /* HelveticaLT107ExtraBlackCondensed.ttf in Resources */,
+				80033E4522C0B0BF00C719E9 /* Mittelschrift.ttf in Resources */,
+				80033E4622C0B0BF00C719E9 /* SourceHanSerifCN-Bold-wzlyapp.ttf in Resources */,
+				80033E4722C0B0BF00C719E9 /* wzlyhw-SVG.otf in Resources */,
+				80033DEC22C07EA200C719E9 /* LaunchScreen.storyboard in Resources */,
+				80033DE922C07EA200C719E9 /* Assets.xcassets in Resources */,
+				80033DE722C07EA200C719E9 /* Main.storyboard in Resources */,
+				8001B07222C0D8DE0006A970 /* TT0144M.TTF in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8001B03222C0B98B0006A970 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8001B03922C0B98C0006A970 /* WZFontTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80033DD822C07EA200C719E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80033DE422C07EA200C719E9 /* ViewController.m in Sources */,
+				80033DEF22C07EA200C719E9 /* main.m in Sources */,
+				80033DE122C07EA200C719E9 /* AppDelegate.m in Sources */,
+				80033E4A22C0B77A00C719E9 /* TableViewCell.m in Sources */,
+				80033E4122C098CB00C719E9 /* WZFont.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8001B03C22C0B98C0006A970 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80033DDB22C07EA200C719E9 /* WZFont */;
+			targetProxy = 8001B03B22C0B98C0006A970 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80033DE522C07EA200C719E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80033DE622C07EA200C719E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80033DEA22C07EA200C719E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80033DEB22C07EA200C719E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8001B03D22C0B98C0006A970 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TA399PG2C9;
+				INFOPLIST_FILE = WZFontTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sky.WZFontTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WZFont.app/WZFont";
+			};
+			name = Debug;
+		};
+		8001B03E22C0B98C0006A970 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TA399PG2C9;
+				INFOPLIST_FILE = WZFontTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sky.WZFontTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WZFont.app/WZFont";
+			};
+			name = Release;
+		};
+		80033DF022C07EA200C719E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		80033DF122C07EA200C719E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80033DF322C07EA200C719E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BU9U9E5458;
+				INFOPLIST_FILE = WZFont/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sky.WZFont;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80033DF422C07EA200C719E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BU9U9E5458;
+				INFOPLIST_FILE = WZFont/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sky.WZFont;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8001B03F22C0B98C0006A970 /* Build configuration list for PBXNativeTarget "WZFontTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8001B03D22C0B98C0006A970 /* Debug */,
+				8001B03E22C0B98C0006A970 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80033DD722C07EA200C719E9 /* Build configuration list for PBXProject "WZFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80033DF022C07EA200C719E9 /* Debug */,
+				80033DF122C07EA200C719E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80033DF222C07EA200C719E9 /* Build configuration list for PBXNativeTarget "WZFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80033DF322C07EA200C719E9 /* Debug */,
+				80033DF422C07EA200C719E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80033DD422C07EA200C719E9 /* Project object */;
+}
